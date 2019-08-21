@@ -24,8 +24,8 @@
 </head>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("email").innerHTML = btoa("{{ site.email }}"); 
-    document.getElementById("email").href = btoa("{{ site.email_full }}");
+    document.getElementById("email").innerHTML = atob("{{ site.email }}"); 
+    document.getElementById("email").href = atob("{{ site.email_full }}");
 });
 </script>
 <body>
