@@ -28,7 +28,7 @@
         <img src="{{ site.baseurl }}static/img/profile.png" class="me">
         <h1>{{ site.name }}</h1>
         <p>
-            <a id="email" href="javascript:atob('{{ site.email_full }}')"><script>document.write(atob("{{ site.email }}"));</script></a><br/>
+            <a id="email" href="javascript:atob('{{ site.email_full }}')"><script>alert(atob("{{ site.email }}"));</script></a><br/>
             <a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i> Github</a> /
             <a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i> Twitter</a>
         </p>
