@@ -23,8 +23,10 @@
     <!-- <link rel="apple-touch-icon" sizes="114x114" href="static/img/me-icon-114.png"> -->
 </head>
 <script>
+    document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("email").innerHTML = btoa("{{ site.email }}"); 
     document.getElementById("email").href = btoa("{{ site.email_full }}");
+});
 </script>
 <body>
 <div class="container">
