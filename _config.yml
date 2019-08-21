@@ -13,15 +13,15 @@ author: Fábio Madeira
 # edit this section with your information
 # jekyller.github.io - all contents run on /vitae/
 # for a normal use at the base of the server change it to "/"
-baseurl: /vitae/
-title: Chris Turner's Resume
-name: Chris Turner
-email: christurner@me.com
-email_full: mailto:youremail@me.com
-website: github.io/sustain
-website_full: https://jekyller.github.io/sustain
-github: trending
-twitter: twitter
+baseurl: /
+title: Max Hamilton's Resume
+name: Max Hamilton
+email: johnmaxh@umich.edu
+email_full: mailto:johnmaxh@umich.edu
+website: https://johnmaxh.github.io
+website_full: https://johnmaxh.github.io
+github: johnmaxh
+twitter: themaxham
 tel: +44 0000 000000
 tel_full: tel:+440000000000
 google_maps: 'https://www.google.co.uk/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL'
