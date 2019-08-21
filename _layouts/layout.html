@@ -22,6 +22,10 @@
     <!-- <link rel="apple-touch-icon" sizes="72x72" href="static/img/me-icon-72.png"> -->
     <!-- <link rel="apple-touch-icon" sizes="114x114" href="static/img/me-icon-114.png"> -->
 </head>
+<script>
+    document.getElementById("email").innerHTML = atob("{{ site.email }}"); 
+    document.getElementById("email").href = atob("{{ site.email_full }}");
+</script>
 <body>
 <div class="container">
     <header class="three columns">
@@ -53,10 +57,6 @@
   ga('create', '{{ site.google_analytics }}', 'auto');
   ga('send', 'pageview');
 
-</script>
-<script>
-    document.getElementById("email").innerHTML = atob("{{ site.email }}"); 
-    document.getElementById("email").href = atob("{{ site.email_full }}");
 </script>
             
 </body>
