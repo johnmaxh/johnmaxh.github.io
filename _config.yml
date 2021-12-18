@@ -21,7 +21,7 @@ email_full: bWFpbHRvOmpvaG5tYXhoQHVtaWNoLmVkdQ==
 website: https://johnmaxh.github.io
 website_full: https://johnmaxh.github.io
 github: johnmaxh
-twitter: themaxham
+google_scholar: dUk5hXoAAAAJ
 
 # needed for travis-ci build
 exclude: [vendor]
