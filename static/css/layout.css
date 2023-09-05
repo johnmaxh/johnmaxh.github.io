@@ -23,7 +23,7 @@ a:visited {
 }
 
 a:hover, a:focus {
-    color: #00274c;
+    color: #ffc72c;
 }
 
 p, address {
@@ -40,7 +40,7 @@ p, address {
 }
 
 header > h1, section > h1 {
-    color: #00274c;
+    color: #ffc72c;
 }
 
 header > h1 {
