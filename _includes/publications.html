@@ -2,6 +2,21 @@
     <h1>Publications</h1>
     <article>
         <header>
+            <h1><a href="https://arxiv.org/abs/2507.01372">Active Measurement: Efficient Estimation at Scale</a></h1>
+            <span><address><em>Max Hamilton</em>*, Jinlin Lai*, Wenlong Zhao, Subhransu Maji<sup>†</sup>, Daniel Sheldon<sup>†</sup></address><time>NeurIPS 2025</time></span>
+        </header>
+        <p>AI has the potential to transform scientific discovery by analyzing vast datasets with little human effort. However, current workflows often do not provide the accuracy or statistical guarantees that are needed. We introduce active measurement, a human-in-the-loop AI framework for scientific measurement. An AI model is used to predict measurements for individual units, which are then sampled for human labeling using importance sampling. With each new set of human labels, the AI model is improved and an unbiased Monte Carlo estimate of the total measurement is refined. Active measurement can provide precise estimates even with an imperfect AI model, and requires little human effort when the AI model is very accurate. We derive novel estimators, weighting schemes, and confidence intervals, and show that active measurement reduces estimation error compared to alternatives in several measurement tasks. 
+*<sup>†</sup> Denote equal contribution</p>
+    </article>
+    <article>
+        <header>
+            <h1><a href="https://arxiv.org/abs/2502.14977v2">Feedforward Few-shot Species Range Estimation</a></h1>
+            <span><address>Christian Lange, <u>Max Hamilton</u>, Elijah Cole, Alexander Shepard, Samuel Heinrich, Angela Zhu, Subhransu Maji, Grant Van Horn, Oisin Mac Aodha</address><time>ICML 2025</time></span>
+        </header>
+        <p>Knowing where a particular species can or cannot be found on Earth is crucial for ecological research and conservation efforts. By mapping the spatial ranges of all species, we would obtain deeper insights into how global biodiversity is affected by climate change and habitat loss. However, accurate range estimates are only available for a relatively small proportion of all known species. For the majority of the remaining species, we typically only have a small number of records denoting the spatial locations where they have previously been observed. We outline a new approach for few-shot species range estimation to address the challenge of accurately estimating the range of a species from limited data. During inference, our model takes a set of spatial locations as input, along with optional metadata such as text or an image, and outputs a species encoding that can be used to predict the range of a previously unseen species in a feedforward manner. We evaluate our approach on two challenging benchmarks, where we obtain state-of-the-art range estimation performance, in a fraction of the compute time, compared to recent alternative approaches. </p>
+    </article>
+    <article>
+        <header>
             <h1><a href="https://arxiv.org/abs/2410.10931">Combining Observational Data and Language for Species Range Estimation</a></h1>
             <span><address><em>Max Hamilton</em>, Christian Lange, Elijah Cole, Alexander Shepard, Samuel Heinrich, Oisin Mac Aodha, Grant Van Horn, Subhransu Maji</address><time>NeurIPS 2024</time></span>
         </header>
@@ -10,14 +25,14 @@
     <article>
         <header>
             <h1><a href="https://arxiv.org/abs/2104.09498">Comparing Correspondences: Video Prediction with Correspondence-wise Losses</a></h1>
-            <span><address>Daniel Geng, <em>Max Hamilton</em>, Andrew Owens</address><time>CVPR 2022</time></span>
+            <span><address>Daniel Geng, <u>Max Hamilton</u>, Andrew Owens</address><time>CVPR 2022</time></span>
         </header>
         <p>Image prediction methods often struggle on tasks that require changing the positions of objects, such as video prediction, producing blurry images that average over the many positions that objects might occupy. In this paper, we propose a simple change to existing image similarity metrics that makes them more robust to positional errors: we match the images using optical flow, then measure the visual similarity of corresponding pixels. This change leads to crisper and more perceptually accurate predictions, and does not require modifications to the image prediction network. We apply our method to a variety of video prediction tasks, where it obtains strong performance with simple network architectures, and to the closely related task of video interpolation.</p>
     </article>
     <article>
         <header>
             <h1><a href="https://arxiv.org/abs/2007.13215">OASIS: A Large-Scale Dataset for Single Image 3D in the Wild</a></h1>
-            <span><address>Weifeng Chen, Shengyi Qian, David Fan, Noriyuki Kojima, <em>Max Hamilton</em>, Jia Deng</address><time>CVPR 2020</time></span>
+            <span><address>Weifeng Chen, Shengyi Qian, David Fan, Noriyuki Kojima, <u>Max Hamilton</u>, Jia Deng</address><time>CVPR 2020</time></span>
         </header>
         <p>Single-view 3D is the task of recovering 3D properties such as depth and surface normals from a single image. We hypothesize that a major obstacle to single-image 3D is data. We address this issue by presenting Open Annotations of Single Image Surfaces (OASIS), a dataset for single-image 3D in the wild consisting of annotations of detailed 3D geometry for 140,000 images. We train and evaluate leading models on a variety of single-image 3D tasks. We expect OASIS to be a useful resource for 3D vision research</p>
     </article>
