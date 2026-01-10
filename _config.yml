@@ -22,6 +22,7 @@ website: https://johnmaxh.github.io
 website_full: https://johnmaxh.github.io
 github: johnmaxh
 google_scholar: tYerDBYAAAAJ
+linkedin: max-hamilton-211088199
 
 # needed for travis-ci build
 exclude: [vendor]
