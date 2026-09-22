@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c7d8d7"/><stop offset="1" stop-color="#dde5df"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fa9a1"/><stop offset="1" stop-color="#557669"/>
+    </linearGradient>
+    <linearGradient id="bank" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5e7969"/><stop offset=".5" stop-color="#6f8978"/><stop offset="1" stop-color="#4e6a5b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="280" fill="url(#sky)"/>
+  <circle cx="682" cy="92" r="38" fill="#efd28f" opacity=".9"/>
+  <path d="M0 245 C150 223 252 256 390 232 C530 210 646 251 800 224 L800 328 L0 328Z" fill="url(#bank)"/>
+  <rect y="310" width="800" height="290" fill="url(#water)"/>
+  <g fill="none" stroke="#dce8e2" opacity=".42" stroke-width="3">
+    <path d="M22 368 C170 350 264 382 426 358 S682 348 788 364"/>
+    <path d="M80 425 C235 405 360 442 530 414 S702 415 784 425"/>
+    <path d="M10 506 C154 482 312 520 455 493 S676 477 796 501"/>
+  </g>
+  <g stroke="#355544" stroke-width="7" stroke-linecap="round" opacity=".88">
+    <path d="M28 600 Q42 480 52 395M54 600 Q55 470 83 364M82 600 Q97 480 112 418M119 600 Q111 467 136 378M148 600 Q154 494 177 406M187 600 Q174 466 210 390"/>
+    <path d="M607 600 Q617 476 635 393M641 600 Q657 458 675 371M678 600 Q679 482 705 405M714 600 Q729 465 744 387M751 600 Q758 490 785 403"/>
+  </g>
+  <g fill="#55725d" opacity=".86">
+    <ellipse cx="52" cy="424" rx="20" ry="6" transform="rotate(-35 52 424)"/><ellipse cx="84" cy="392" rx="21" ry="6" transform="rotate(28 84 392)"/><ellipse cx="135" cy="416" rx="22" ry="6" transform="rotate(-28 135 416)"/><ellipse cx="177" cy="444" rx="18" ry="6" transform="rotate(32 177 444)"/>
+    <ellipse cx="636" cy="422" rx="21" ry="6" transform="rotate(-32 636 422)"/><ellipse cx="675" cy="399" rx="20" ry="6" transform="rotate(29 675 399)"/><ellipse cx="706" cy="438" rx="22" ry="6" transform="rotate(-31 706 438)"/><ellipse cx="746" cy="411" rx="20" ry="6" transform="rotate(34 746 411)"/>
+  </g>
+  <g fill="#93aaa0" opacity=".55">
+    <ellipse cx="300" cy="470" rx="66" ry="12"/><ellipse cx="512" cy="535" rx="82" ry="13"/><ellipse cx="370" cy="573" rx="48" ry="9"/>
+  </g>
+</svg>

@@ -7,22 +7,16 @@ paginate: 5
 plugins: [jekyll-paginate]
 port: 4000
 safe: true
-url: http://jekyller.github.io/vitae
-author: Fábio Madeira
+url: https://johnmaxh.github.io
+author: Max Hamilton
 
-# edit this section with your information
-# jekyller.github.io - all contents run on /vitae/
-# for a normal use at the base of the server change it to "/"
-baseurl: /
-title: Max Hamilton's Resume
+baseurl: ""
+title: Max Hamilton · AI, Vision & Reliable Measurement
 name: Max Hamilton
-email: am1oYW1pbHRvbkB1bWFzcy5lZHU=
-email_full: bWFpbHRvOmptaGFtaWx0b25AdW1hc3MuZWR1==
 website: https://johnmaxh.github.io
 website_full: https://johnmaxh.github.io
 github: johnmaxh
 google_scholar: tYerDBYAAAAJ
 linkedin: max-hamilton-211088199
 
-# needed for travis-ci build
 exclude: [vendor]
